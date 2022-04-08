@@ -24,6 +24,6 @@ with open('input.txt', 'r') as INPUT:
 			for k in range(array.count(j) - 1):
 				array.remove(j)
 	print('Домов,  получивших хотябы один подарок ', str(len(array)))
-
+INPUT.close()
 with open('output1.txt','w') as output:
 	output.write(str(len(array)))

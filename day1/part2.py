@@ -1,4 +1,4 @@
-f = open("input.TXT", 'r')
+f = open("input.txt", 'r')
 List = f.readline() 
 op = 0
 cl = 0
@@ -14,7 +14,7 @@ for i in range(0, len(List)):
 print("Ответ: " + str(cnt))
 f.close()
 
-newfile = open("output.TXT", "w")
+newfile = open("output2.txt", "w")
 d = str(cnt)
 newfile.write(d) 
 newfile.close()

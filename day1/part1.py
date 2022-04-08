@@ -1,4 +1,4 @@
-f = open("input.TXT", 'r')
+f = open("input.txt", 'r')
 List = f.readline() 
 op = 0
 cl = 0
@@ -14,7 +14,7 @@ print("Количество раз когда Санта опустится на
 print("Санта окажется на " + str(res) + " этаже.")
 f.close()
 
-newfile = open("output.TXT", "w")
+newfile = open("output1.txt", "w")
 d = str(res)
 newfile.write(d) 
 newfile.close()

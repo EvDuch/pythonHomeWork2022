@@ -1,4 +1,4 @@
-with open("input.TXT") as f:
+with open("input.txt") as f:
 	lines = f.readlines()          #СЧИТЫВАЕМ ВСЕ СТРОКИ ДОКУМЕНТА В СПИСКИ
 	f.seek(0)					   #ВОЗВРАЩЕМ КУРСИВ В САМОЕ НАЧАЛО
 	res = 0
@@ -12,7 +12,7 @@ with open("input.TXT") as f:
 		res += 2*lineList[0]+2*lineList[1]+lineList[0]*lineList[1]*lineList[2]
 print(res)
 	
-newfile = open("output.TXT", "w")
+newfile = open("output2.txt", "w")
 d = str(res)
 newfile.write(d) 
 newfile.close()
