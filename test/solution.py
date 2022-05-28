@@ -81,7 +81,7 @@ while res2 > k:
 print(res2)
 f.close()
 
-with open('output1.txt','w') as output:
+with open('output.txt','w') as output:
 	output.write(str(res1) + '\n')	
 	output.write(str(res2))	
 
